@@ -8,6 +8,7 @@ public abstract class EndlessRecyclerOnScrollListener extends RecyclerView.OnScr
     private int mPreviousTotal = 0;
     private boolean mLoading = true;
 
+
     @Override
     public void onScrolled(RecyclerView recyclerView, int dx, int dy) {
         super.onScrolled(recyclerView, dx, dy);
